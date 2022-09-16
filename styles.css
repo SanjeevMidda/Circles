@@ -1,0 +1,100 @@
+body{
+    /* background-color: rgb(201, 69, 47); */
+    background-color: white;
+    font-family: Helvetica, sans-serif
+}
+
+.circle{
+    width:250px;
+    height:250px;
+    border-radius: 50%;
+    /* border: 1px solid red; */
+    background-color: rgba(255, 0, 0, 0.525);
+}
+
+/* STYLING NAV */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border-bottom: 1px solid black; */
+    
+}
+
+nav h1{
+    font-weight: 700;
+    border-bottom: 5px solid black;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+
+}
+
+li{
+    margin-right: 30px;
+    /* letter-spacing: 5px; */
+    font-size: 30px;
+}
+
+h1{
+    margin-left: 30px;
+    font-weight:500;
+}
+
+/* STYLING MAIN */
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 83vh;
+}
+
+.one{
+    position: absolute;
+    left:459px;
+    /* border: 1px solid green; */
+    background-color: rgba(0, 128, 0, 0.473);
+}
+
+.two{
+    position: absolute;
+    left:711px;
+    /* border: 1px solid gold; */
+    background-color: rgba(255, 217, 0, 0.472);
+}
+
+.three{
+    position: absolute;
+    left:585px;
+    top:203px;
+    /* border: 1px solid purple; */
+    background-color: rgba(128, 0, 128, 0.538);
+}
+
+.four{
+    position: absolute;
+    left:585px;
+    bottom:198px;
+    /* border: 1px solid blue; */
+    background-color: rgba(0, 0, 255, 0.57);
+}
+
+/* STYLING FOOTER */
+footer{
+    border-top: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.blackCircle{
+    width:40px;
+    height:40px;
+    /* background-color: black; */
+    border-radius: 50%;
+    margin-bottom: 5px;
+    background-image: linear-gradient(pink,yellow);
+    margin-right: 30px;
+}
